@@ -1,0 +1,101 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\altera\binarytobcd\simulation\qsim
+vbinarytobcd
+Ik]d7akdRVHHjziE8]00=I2
+Z1 V4Fg`hj^@MN[nSJ=O`BzkX3
+Z2 dD:\altera\binarytobcd\simulation\qsim
+w1678784907
+Z3 8binarytobcd.vo
+Z4 Fbinarytobcd.vo
+L0 31
+Z5 OV;L;10.1d;51
+r1
+31
+Z6 !s90 -work|work|binarytobcd.vo|
+Z7 o-work work -O0
+!i10b 1
+!s100 k1ZCYX@DGWg5A:g1O7d;c0
+!s85 0
+!s108 1678784908.368000
+Z8 !s107 binarytobcd.vo|
+!s101 -O0
+vbinarytobcd_tb
+Il8D><d>7UeUe?2CRB:J5f3
+V;lm`aDVnehWWE5C3b5g>U3
+R2
+w1678784448
+8D:/altera/binarytobcd/binarytobcd_tb.v
+FD:/altera/binarytobcd/binarytobcd_tb.v
+L0 1
+R5
+r1
+31
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+D:/altera/binarytobcd -O0
+!i10b 1
+!s100 DKg:4e8[E;>EDMQ`F>AUc3
+!s85 0
+!s108 1678784674.472000
+!s107 D:/altera/binarytobcd/binarytobcd_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/binarytobcd|D:/altera/binarytobcd/binarytobcd_tb.v|
+!s101 -O0
+vbinarytobcd_vlg_check_tst
+!i10b 1
+!s100 an<n=76B95nYF5e6O_63E0
+Ioj]T:?AEJjbk0EiN6=Ia51
+Z9 Vj4]Lccj5FG?Z>0`JE8;3S3
+R2
+Z10 w1678784906
+Z11 8Waveform4.vwf.vt
+Z12 FWaveform4.vwf.vt
+L0 59
+R5
+r1
+!s85 0
+31
+Z13 !s108 1678784908.411000
+Z14 !s107 Waveform4.vwf.vt|
+Z15 !s90 -work|work|Waveform4.vwf.vt|
+!s101 -O0
+R7
+vbinarytobcd_vlg_sample_tst
+!i10b 1
+!s100 RjGLO`?:KELTo2gI8L8E11
+IIlOP406Uczl:XO9C4>?dY2
+Z16 VAzGN6ifkIiE;>mD=cXG7O1
+R2
+R10
+R11
+R12
+L0 29
+R5
+r1
+!s85 0
+31
+R13
+R14
+R15
+!s101 -O0
+R7
+vbinarytobcd_vlg_vec_tst
+!i10b 1
+!s100 <:NGMc8OjKYN2Moi2?>[70
+I:Xj^[6jnA5_mkEj:=IZ^k0
+Z17 VSXYT5_`cgaU09zORT7>@=1
+R2
+R10
+R11
+R12
+Z18 L0 367
+R5
+r1
+!s85 0
+31
+R13
+R14
+R15
+!s101 -O0
+R7

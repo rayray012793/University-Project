@@ -1,0 +1,26 @@
+module LAB_1(clk,rst,sel_dir,sel_time,table_pin);
+    input clk,rst,sel_dir,sel_time;
+    output [15:0]table_pin;
+	 reg[25:0]cnt;
+	 always@(posedge clk or negedge rst )
+		begin 
+		if(!rst)cnt <= 26'd0;
+		else if ( cnt == 26'd50000000)
+		cnt <= 26'd0;
+		else cnt <= cnt +1b'1;
+	 end 
+	 always@(posedge clk or negedge rst )
+		begin 
+		if(!rst_n) led_r <= 16'b1111111111111110; 
+		else if(cnt == 26'd50000000) 
+
+		led_r <= {led_r[0],led[7:1]}; 
+
+	end
+
+
+assign ltable_pin = led_r; 	
+	 
+	 
+	 
+endmodule 

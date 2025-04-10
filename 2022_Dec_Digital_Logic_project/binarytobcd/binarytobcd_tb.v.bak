@@ -1,0 +1,44 @@
+module testbench;
+
+reg clk;
+reg [7:0] binary_value;
+wire [3:0] one;
+wire [3:0] ten;
+wire [3:0] hundred;
+
+binarytobcd dut(
+    .clk(clk),
+    .binary_value(binary_value),
+    .one(one),
+    .ten(ten),
+    .hundred(hundred)
+);
+
+initial begin
+    // Add code to initialize signals as needed
+    // ...
+     binary_value = 8'b00000000;
+    #10 binary_value = 8'b00000001;
+    #10 binary_value = 8'b00000100;
+    #10 binary_value = 8'b00001000;
+    #10 binary_value = 8'b00011111;
+    // Start clock
+    clk = 0;
+    forever #5 clk = ~clk;
+end
+
+always @(posedge clk) begin
+    // Add code to change binary_value input at desired intervals
+    // ...
+ if (binary_value !== binary_value_pre) begin
+        // Save input value for comparison after simulation
+        binary_value_pre = binary_value;
+        
+        // Check output values
+        if (hundred !== expected_hundred ||
+            ten !== expected_ten ||
+            one !== expected_one) begin
+            $error("Incorrect output values for input %h: %d %d %d", binary_value, hundred, ten, one);
+	 end
+
+endmodule

@@ -1,0 +1,40 @@
+module segementdecoder7{
+       inputA,
+		 inputB,
+		 inputC,
+		 inputD,
+		 outputA,
+		 outputB,
+		 outputC,
+		 outputD,
+		 outputE,
+		 outputF,
+		 outputG
+};
+input wire inputA;
+input wire inputB;
+input wire inputC;
+input wire inputD;
+output wire outputA;
+output wire outputB;
+output wire outputC;
+output wire outputD;
+output wire outputE;
+output wire outputF;
+output wire outputG;
+
+wire a;
+wire b;
+wire c;
+wire d;
+wire out_a1;
+wire out_a2;
+wire out_a3;//a1+a2
+
+assign a = inputA;
+assign b = inputB;
+assign c = inputC;
+assign d = inputD;
+assign out_a1 = a;
+assign out_a2 = c;
+assign out_a3 = out_a1 | out_a2;

@@ -1,0 +1,32 @@
+# do segementdecoder7.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module segementdecoder7
+# 
+# Top level modules:
+# 	segementdecoder7
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module segementdecoder7_vlg_sample_tst
+# -- Compiling module segementdecoder7_vlg_check_tst
+# -- Compiling module segementdecoder7_vlg_vec_tst
+# 
+# Top level modules:
+# 	segementdecoder7_vlg_vec_tst
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.segementdecoder7_vlg_vec_tst 
+# Loading work.segementdecoder7_vlg_vec_tst
+# Loading work.segementdecoder7
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading work.segementdecoder7_vlg_sample_tst
+# Loading work.segementdecoder7_vlg_check_tst
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from segementdecoder7_v.sdo
+# Loading timing data from segementdecoder7_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /segementdecoder7_vlg_vec_tst File: Waveform1.vwf.vt
+# Simulation passed !
+# ** Note: $finish    : Waveform1.vwf.vt(316)
+#    Time: 1 us  Iteration: 0  Instance: /segementdecoder7_vlg_vec_tst/tb_out

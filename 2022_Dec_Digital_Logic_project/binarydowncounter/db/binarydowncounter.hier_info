@@ -1,0 +1,22 @@
+|binarydowncounter
+Cout <= inst58.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst57.CLK
+CLK => inst52.CLK
+CLK => inst48.CLK
+CLK => inst44.CLK
+L => inst.IN0
+L => inst40.IN0
+L => inst45.IN0
+L => inst49.IN0
+L => inst54.IN0
+C => inst39.IN1
+I0 => inst40.IN1
+I1 => inst45.IN1
+I2 => inst49.IN1
+I3 => inst54.IN1
+Q0 <= inst44.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= inst48.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= inst57.DB_MAX_OUTPUT_PORT_TYPE
+
+

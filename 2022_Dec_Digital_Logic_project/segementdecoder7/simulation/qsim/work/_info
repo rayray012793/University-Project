@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\altera\segementdecoder7\simulation\qsim
+vsegementdecoder7
+Z1 IV^Xzj;DY3l=oAmd2Dn8G=1
+Z2 Vh;ba;YR:3dngZ78K`ObQ;1
+Z3 dD:\altera\segementdecoder7\simulation\qsim
+Z4 w1678871269
+Z5 8segementdecoder7.vo
+Z6 Fsegementdecoder7.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|segementdecoder7.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 ?2e?goXVI@nI[cdM?PPKk3
+!s85 0
+Z11 !s108 1678871270.270000
+Z12 !s107 segementdecoder7.vo|
+!s101 -O0
+vsegementdecoder7_vlg_check_tst
+!i10b 1
+Z13 !s100 =iUiUHL^RTZ9z6P^9[B@P2
+Z14 IIK4T2X^Y0E7e>EfW>[=n=0
+Z15 VMAJiKTgbaDe6UKDD2<hV20
+R3
+Z16 w1678871268
+Z17 8Waveform1.vwf.vt
+Z18 FWaveform1.vwf.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z19 !s108 1678871270.308000
+Z20 !s107 Waveform1.vwf.vt|
+Z21 !s90 -work|work|Waveform1.vwf.vt|
+!s101 -O0
+R9
+vsegementdecoder7_vlg_sample_tst
+!i10b 1
+Z22 !s100 ?CXeT26mJ64O^bgz<0`LJ1
+Z23 I<A8hBa?iaa5O1R[QjUQYj0
+Z24 VY>EioQ>OPdMm]mA8G<6BU1
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vsegementdecoder7_vlg_vec_tst
+!i10b 1
+Z25 !s100 M2bZnZazcW^jj>CdnL2GR2
+Z26 IGCFMge7g7AYjWoCD;o2Tn3
+Z27 VO49OAP3?Ui3N66@34n15n0
+R3
+R16
+R17
+R18
+Z28 L0 320
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
