@@ -1,1 +1,1 @@
-This repository contains electronics projects developed during my university studies, focusing on Integrated Circuits (ICs) and basic web technologies. These projects reflect my experience in circuit design, web development, and practical applications of electronic components.
+Contains electronics projects developed during my university studies, focusing on Integrated Circuits (ICs) and basic web technologies. These projects reflect my experience in circuit design, web development, and practical applications of electronic components.
