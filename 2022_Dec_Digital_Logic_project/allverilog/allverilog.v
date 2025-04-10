@@ -1,0 +1,22 @@
+// a binary-to-bed converter
+module allverilog ( input [7:0] binary,
+output [3:0] bcd0, bed1, // bed outputs output [1:0] bcd2);
+// the body of the binary-to-bed converter
+// instantiate geq5_plus cells
+wire [3:0] tO, t1, t2, t3, t4, t5, t6;
+geg5_plus3 inst17 (1'bO, binary [7], binary [6], binary [5],
+tO[3], tO[2], to[l], to [O]);
+geq5_plus3 inst23 (tO[2], tO[1], tO[0], binary [4],
+t1 [3], t1[2], t1[1], t1 [0]);
+geq5_plus3 inst22 (t1 [2], t1[1], t1[0], binary [3],
+t2[3], t2[2], t2[1], t2[0]);
+geq5_plus3 inst20 (t2[2], t2[1], t2[0], binary [2],
+t3[3], t3[2], t3[1], t3[0]);
+geq5_plus3 inst10 (t3[2], t3[1], t3[0], binary[1],
+t5[3], t5[2], t5[1], t5[0]);
+geq5_plus3 inst21 (1'bO, tO[3], t1[3], +2[3],
+t4[3], t4[2], t4[1], t4[0]);
+geq5_plus3 inst18 (t4[2], t4[1], t4[0], t3[3],
+t6[3], t6[2], t6[1], t6 [0]);
+assign (bcd2, bed1, bed0) = (t4[3], t6, t5, binary[0]);
+endmodule

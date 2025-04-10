@@ -1,0 +1,301 @@
+|new_binaryBCD
+Y9 <= Block2:inst5.O3
+B7 => Block2:inst.D2
+B6 => Block2:inst.D1
+B5 => Block2:inst.D0
+B4 => Block2:inst6.D0
+B3 => Block2:inst7.D0
+Y8 <= Block2:inst9.O3
+B2 => Block2:inst8.D0
+Y7 <= Block2:inst9.O2
+Y6 <= Block2:inst9.O1
+Y5 <= Block2:inst9.O0
+Y4 <= Block2:inst10.O3
+B1 => Block2:inst10.D0
+Y3 <= Block2:inst10.O2
+Y2 <= Block2:inst10.O1
+Y1 <= Block2:inst10.O0
+Y0 <= B0.DB_MAX_OUTPUT_PORT_TYPE
+B0 => Y0.DATAIN
+
+
+|new_binaryBCD|Block2:inst5
+O3 <= binary_to_bcd:inst5.O4
+D3 => binary_to_bcd:inst5.D4
+D3 => inst.IN1
+D2 => binary_to_bcd:inst5.D3
+D2 => inst4.IN0
+D2 => inst3.IN0
+D1 => inst4.IN1
+D1 => binary_to_bcd:inst5.D2
+D0 => inst3.IN1
+D0 => binary_to_bcd:inst5.D1
+O2 <= binary_to_bcd:inst5.O3
+O1 <= binary_to_bcd:inst5.O2
+O0 <= binary_to_bcd:inst5.O1
+
+
+|new_binaryBCD|Block2:inst5|binary_to_bcd:inst5
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+D4 => 22.IN1
+D4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+D3 => 21.IN1
+D3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+D2 => 20.IN1
+D2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+D1 => 19.IN1
+D1 => 23.IN1
+O4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+O3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+O2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+O1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|new_binaryBCD|Block2:inst
+O3 <= binary_to_bcd:inst5.O4
+D3 => binary_to_bcd:inst5.D4
+D3 => inst.IN1
+D2 => binary_to_bcd:inst5.D3
+D2 => inst4.IN0
+D2 => inst3.IN0
+D1 => inst4.IN1
+D1 => binary_to_bcd:inst5.D2
+D0 => inst3.IN1
+D0 => binary_to_bcd:inst5.D1
+O2 <= binary_to_bcd:inst5.O3
+O1 <= binary_to_bcd:inst5.O2
+O0 <= binary_to_bcd:inst5.O1
+
+
+|new_binaryBCD|Block2:inst|binary_to_bcd:inst5
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+D4 => 22.IN1
+D4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+D3 => 21.IN1
+D3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+D2 => 20.IN1
+D2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+D1 => 19.IN1
+D1 => 23.IN1
+O4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+O3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+O2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+O1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|new_binaryBCD|Block2:inst6
+O3 <= binary_to_bcd:inst5.O4
+D3 => binary_to_bcd:inst5.D4
+D3 => inst.IN1
+D2 => binary_to_bcd:inst5.D3
+D2 => inst4.IN0
+D2 => inst3.IN0
+D1 => inst4.IN1
+D1 => binary_to_bcd:inst5.D2
+D0 => inst3.IN1
+D0 => binary_to_bcd:inst5.D1
+O2 <= binary_to_bcd:inst5.O3
+O1 <= binary_to_bcd:inst5.O2
+O0 <= binary_to_bcd:inst5.O1
+
+
+|new_binaryBCD|Block2:inst6|binary_to_bcd:inst5
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+D4 => 22.IN1
+D4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+D3 => 21.IN1
+D3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+D2 => 20.IN1
+D2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+D1 => 19.IN1
+D1 => 23.IN1
+O4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+O3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+O2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+O1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|new_binaryBCD|Block2:inst7
+O3 <= binary_to_bcd:inst5.O4
+D3 => binary_to_bcd:inst5.D4
+D3 => inst.IN1
+D2 => binary_to_bcd:inst5.D3
+D2 => inst4.IN0
+D2 => inst3.IN0
+D1 => inst4.IN1
+D1 => binary_to_bcd:inst5.D2
+D0 => inst3.IN1
+D0 => binary_to_bcd:inst5.D1
+O2 <= binary_to_bcd:inst5.O3
+O1 <= binary_to_bcd:inst5.O2
+O0 <= binary_to_bcd:inst5.O1
+
+
+|new_binaryBCD|Block2:inst7|binary_to_bcd:inst5
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+D4 => 22.IN1
+D4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+D3 => 21.IN1
+D3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+D2 => 20.IN1
+D2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+D1 => 19.IN1
+D1 => 23.IN1
+O4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+O3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+O2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+O1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|new_binaryBCD|Block2:inst9
+O3 <= binary_to_bcd:inst5.O4
+D3 => binary_to_bcd:inst5.D4
+D3 => inst.IN1
+D2 => binary_to_bcd:inst5.D3
+D2 => inst4.IN0
+D2 => inst3.IN0
+D1 => inst4.IN1
+D1 => binary_to_bcd:inst5.D2
+D0 => inst3.IN1
+D0 => binary_to_bcd:inst5.D1
+O2 <= binary_to_bcd:inst5.O3
+O1 <= binary_to_bcd:inst5.O2
+O0 <= binary_to_bcd:inst5.O1
+
+
+|new_binaryBCD|Block2:inst9|binary_to_bcd:inst5
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+D4 => 22.IN1
+D4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+D3 => 21.IN1
+D3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+D2 => 20.IN1
+D2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+D1 => 19.IN1
+D1 => 23.IN1
+O4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+O3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+O2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+O1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|new_binaryBCD|Block2:inst8
+O3 <= binary_to_bcd:inst5.O4
+D3 => binary_to_bcd:inst5.D4
+D3 => inst.IN1
+D2 => binary_to_bcd:inst5.D3
+D2 => inst4.IN0
+D2 => inst3.IN0
+D1 => inst4.IN1
+D1 => binary_to_bcd:inst5.D2
+D0 => inst3.IN1
+D0 => binary_to_bcd:inst5.D1
+O2 <= binary_to_bcd:inst5.O3
+O1 <= binary_to_bcd:inst5.O2
+O0 <= binary_to_bcd:inst5.O1
+
+
+|new_binaryBCD|Block2:inst8|binary_to_bcd:inst5
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+D4 => 22.IN1
+D4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+D3 => 21.IN1
+D3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+D2 => 20.IN1
+D2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+D1 => 19.IN1
+D1 => 23.IN1
+O4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+O3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+O2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+O1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|new_binaryBCD|Block2:inst10
+O3 <= binary_to_bcd:inst5.O4
+D3 => binary_to_bcd:inst5.D4
+D3 => inst.IN1
+D2 => binary_to_bcd:inst5.D3
+D2 => inst4.IN0
+D2 => inst3.IN0
+D1 => inst4.IN1
+D1 => binary_to_bcd:inst5.D2
+D0 => inst3.IN1
+D0 => binary_to_bcd:inst5.D1
+O2 <= binary_to_bcd:inst5.O3
+O1 <= binary_to_bcd:inst5.O2
+O0 <= binary_to_bcd:inst5.O1
+
+
+|new_binaryBCD|Block2:inst10|binary_to_bcd:inst5
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+D4 => 22.IN1
+D4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+D3 => 21.IN1
+D3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+D2 => 20.IN1
+D2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+D1 => 19.IN1
+D1 => 23.IN1
+O4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+O3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+O2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+O1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+

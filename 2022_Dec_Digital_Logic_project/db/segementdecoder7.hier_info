@@ -1,0 +1,34 @@
+|segementdecoder7
+a <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+inputB => inst3.IN0
+inputB => inst7.IN0
+inputB => inst16.IN1
+inputB => inst22.IN0
+inputB => inst32.IN0
+inputB => inst36.IN0
+inputD => inst5.IN0
+inputD => inst7.IN1
+inputD => inst11.IN1
+inputD => inst50.IN1
+inputD => inst22.IN2
+inputC => inst6.IN0
+inputC => inst4.IN0
+inputC => inst11.IN0
+inputC => inst20.IN1
+inputC => inst19.IN0
+inputC => inst26.IN0
+inputC => inst38.IN1
+inputC => inst37.IN0
+inputA => inst6.IN1
+inputA => inst.IN0
+inputA => inst16.IN0
+inputA => inst32.IN1
+inputA => inst35.IN0
+b <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+c <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst28.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst34.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst42.DB_MAX_OUTPUT_PORT_TYPE
+
+

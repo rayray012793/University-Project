@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, E:/quartus/binaryupcounter/binaryupcounter.bdf
+source_file = 1, E:/quartus/binaryupcounter/db/binaryupcounter.cbx.xml
+design_name = binaryupcounter
+instance = comp, \y1~output\, y1~output, binaryupcounter, 1
+instance = comp, \y2~output\, y2~output, binaryupcounter, 1
+instance = comp, \y3~output\, y3~output, binaryupcounter, 1
+instance = comp, \y4~output\, y4~output, binaryupcounter, 1
+instance = comp, \CLK~input\, CLK~input, binaryupcounter, 1
+instance = comp, \inst~0\, inst~0, binaryupcounter, 1
+instance = comp, \inst~feeder\, inst~feeder, binaryupcounter, 1
+instance = comp, \inst1~0\, inst1~0, binaryupcounter, 1
+instance = comp, \inst2~0\, inst2~0, binaryupcounter, 1
+instance = comp, \inst2~feeder\, inst2~feeder, binaryupcounter, 1
+instance = comp, \inst3~0\, inst3~0, binaryupcounter, 1

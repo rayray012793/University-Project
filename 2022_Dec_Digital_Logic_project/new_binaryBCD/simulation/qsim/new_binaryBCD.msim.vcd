@@ -1,0 +1,154 @@
+$comment
+	File created using the following command:
+		vcd file new_binaryBCD.msim.vcd -direction
+$end
+$date
+	Sun Mar 12 13:24:59 2023
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module new_binaryBCD_vlg_vec_tst $end
+$var reg 1 ! B0 $end
+$var reg 1 " B1 $end
+$var reg 1 # B2 $end
+$var reg 1 $ B3 $end
+$var reg 1 % B4 $end
+$var reg 1 & B5 $end
+$var reg 1 ' B6 $end
+$var reg 1 ( B7 $end
+$var wire 1 ) Y0 $end
+$var wire 1 * Y1 $end
+$var wire 1 + Y2 $end
+$var wire 1 , Y3 $end
+$var wire 1 - Y4 $end
+$var wire 1 . Y5 $end
+$var wire 1 / Y6 $end
+$var wire 1 0 Y7 $end
+$var wire 1 1 Y8 $end
+$var wire 1 2 Y9 $end
+$var wire 1 3 sampler $end
+$scope module i1 $end
+$var wire 1 4 gnd $end
+$var wire 1 5 vcc $end
+$var wire 1 6 unknown $end
+$var tri1 1 7 devclrn $end
+$var tri1 1 8 devpor $end
+$var tri1 1 9 devoe $end
+$var wire 1 : Y9~output_o $end
+$var wire 1 ; Y8~output_o $end
+$var wire 1 < Y7~output_o $end
+$var wire 1 = Y6~output_o $end
+$var wire 1 > Y5~output_o $end
+$var wire 1 ? Y4~output_o $end
+$var wire 1 @ Y3~output_o $end
+$var wire 1 A Y2~output_o $end
+$var wire 1 B Y1~output_o $end
+$var wire 1 C Y0~output_o $end
+$var wire 1 D B7~input_o $end
+$var wire 1 E B6~input_o $end
+$var wire 1 F B3~input_o $end
+$var wire 1 G B4~input_o $end
+$var wire 1 H inst5|inst5|1~3_combout $end
+$var wire 1 I B5~input_o $end
+$var wire 1 J inst5|inst5|1~9_combout $end
+$var wire 1 K inst6|inst5|27~0_combout $end
+$var wire 1 L inst6|inst5|44~combout $end
+$var wire 1 M inst6|inst5|43~combout $end
+$var wire 1 N inst7|inst5|45~0_combout $end
+$var wire 1 O inst6|inst~0_combout $end
+$var wire 1 P B2~input_o $end
+$var wire 1 Q inst7|inst5|44~combout $end
+$var wire 1 R inst7|inst5|27~0_combout $end
+$var wire 1 S inst7|inst5|43~0_combout $end
+$var wire 1 T inst8|inst5|45~0_combout $end
+$var wire 1 U inst|inst~0_combout $end
+$var wire 1 V inst9|inst5|45~0_combout $end
+$var wire 1 W inst9|inst5|44~0_combout $end
+$var wire 1 X inst9|inst5|43~0_combout $end
+$var wire 1 Y inst9|inst5|27~0_combout $end
+$var wire 1 Z inst8|inst5|27~0_combout $end
+$var wire 1 [ inst8|inst5|44~combout $end
+$var wire 1 \ inst8|inst5|43~0_combout $end
+$var wire 1 ] B1~input_o $end
+$var wire 1 ^ inst10|inst5|45~0_combout $end
+$var wire 1 _ inst10|inst5|44~0_combout $end
+$var wire 1 ` inst10|inst5|43~0_combout $end
+$var wire 1 a inst10|inst5|27~0_combout $end
+$var wire 1 b B0~input_o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+1#
+0$
+1%
+1&
+1'
+1(
+0)
+1*
+1+
+0,
+0-
+0.
+1/
+00
+01
+12
+x3
+04
+15
+x6
+17
+18
+19
+1:
+0;
+0<
+1=
+0>
+0?
+0@
+1A
+1B
+0C
+1D
+1E
+0F
+1G
+0H
+1I
+0J
+0K
+0L
+1M
+1N
+1O
+1P
+0Q
+1R
+1S
+0T
+1U
+0V
+0W
+1X
+1Y
+1Z
+0[
+1\
+1]
+0^
+0_
+0`
+1a
+0b
+$end
+#1000000

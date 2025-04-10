@@ -1,0 +1,37 @@
+# do binarytobcd.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module binarytobcd
+# 
+# Top level modules:
+# 	binarytobcd
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module binarytobcd_vlg_sample_tst
+# -- Compiling module binarytobcd_vlg_check_tst
+# -- Compiling module binarytobcd_vlg_vec_tst
+# 
+# Top level modules:
+# 	binarytobcd_vlg_vec_tst
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.binarytobcd_vlg_vec_tst 
+# Loading work.binarytobcd_vlg_vec_tst
+# Loading work.binarytobcd
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.binarytobcd_vlg_sample_tst
+# Loading work.binarytobcd_vlg_check_tst
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from binarytobcd_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from binarytobcd_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /binarytobcd_vlg_vec_tst File: Waveform4.vwf.vt
+# Simulation passed !
+# ** Note: $finish    : Waveform4.vwf.vt(363)
+#    Time: 1 us  Iteration: 0  Instance: /binarytobcd_vlg_vec_tst/tb_out

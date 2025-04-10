@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, E:/quartus/newfive_add_three/newfive_add_three.bdf
+source_file = 1, E:/quartus/newfive_add_three/db/newfive_add_three.cbx.xml
+source_file = 1, E:/quartus/newfive_add_three/full_add.bdf
+design_name = newfive_add_three
+instance = comp, \O[3]~output\, O[3]~output, newfive_add_three, 1
+instance = comp, \O[2]~output\, O[2]~output, newfive_add_three, 1
+instance = comp, \O[1]~output\, O[1]~output, newfive_add_three, 1
+instance = comp, \O[0]~output\, O[0]~output, newfive_add_three, 1
+instance = comp, \D[2]~input\, D[2]~input, newfive_add_three, 1
+instance = comp, \D[0]~input\, D[0]~input, newfive_add_three, 1
+instance = comp, \D[3]~input\, D[3]~input, newfive_add_three, 1
+instance = comp, \D[1]~input\, D[1]~input, newfive_add_three, 1
+instance = comp, \inst7|45~0\, inst7|45~0, newfive_add_three, 1
+instance = comp, \inst7|44~0\, inst7|44~0, newfive_add_three, 1
+instance = comp, \inst7|43\, inst7|43, newfive_add_three, 1
+instance = comp, \inst7|27~0\, inst7|27~0, newfive_add_three, 1
