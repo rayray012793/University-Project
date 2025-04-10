@@ -1,1 +1,1 @@
-"# University-Project" 
+Contains the projects completed during my 2024 Electronics Lab, where I explored and built a range of circuits using Operational Amplifiers (OPA), Timers (NE555), and other essential components. The projects showcase my understanding of analog circuit design, including OPA comparators, adders, subtractors, astable oscillators, differentiators, active filters, and power amplifiers. These circuits reflect my hands-on experience in both theory and practical applications of electronics.
