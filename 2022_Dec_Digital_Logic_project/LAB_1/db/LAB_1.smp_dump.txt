@@ -1,7 +1,0 @@
-
-State Machine - |LAB_1|speed
-Name speed.vfast speed.fast speed.mid speed.slow 
-speed.slow 0 0 0 0 
-speed.mid 0 0 1 1 
-speed.fast 0 1 0 1 
-speed.vfast 1 0 0 1 

@@ -1,5 +1,0 @@
-module LED(clk,rst,sel_dir,sel_time,table_pin);
-    input clk,rst,sel_dir,sel_time;
-    output [9:0]table_pin;
-
-endmodule
