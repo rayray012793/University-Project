@@ -1,6 +1,0 @@
-module BCDto7segement(input[3:0]bcd_in,output reg[7:0]seg_out);
-
-always @ (bcd_in)
-      begin
-		case(bcd_in)
-		4'0000 bcd_in: seg_out= 
