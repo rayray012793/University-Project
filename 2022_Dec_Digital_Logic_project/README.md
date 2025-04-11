@@ -1,0 +1,1 @@
+This repository contains all the Verilog labs completed during the course.
