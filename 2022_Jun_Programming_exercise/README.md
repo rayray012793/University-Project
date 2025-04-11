@@ -1,0 +1,1 @@
+This repository contains weekly coding exercises, all written in C.

@@ -1,0 +1,1 @@
+This repository contains all lab assignments from the course, featuring implementations in assembly language and Verilog. Each lab is pasted into a Word document, with each document containing both an assembly language and a Verilog version.
