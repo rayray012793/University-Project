@@ -45,20 +45,20 @@ This section contains weekly lab projects focused on analog and digital electron
 
 Topics Include:
 
-OPA (Operational Amplifier) Circuit
+1. OPA (Operational Amplifier) Circuit
 
-OPA Comparator
+2. OPA Comparator
 
-OPA Adder
+3. OPA Adder
 
-Differential Amplifier
+4. Differential Amplifier
 
-Stable Multivibrator
+5. Stable Multivibrator
 
-NE555 Timer
+6. NE555 Timer
 
-Integrator & Differentiator Circuits
+7. Integrator & Differentiator Circuits
 
-Active Filters (Low-pass, High-pass)
+8. Active Filters (Low-pass, High-pass)
 
-Power Amplifier
+9. Power Amplifier
