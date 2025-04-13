@@ -1,64 +1,93 @@
-University Electronics, Web Technology, and Programming Projects
+# University Electronics, Web Technology, and Programming Projects
 
 This repository compiles all major lab projects and coursework completed during my university studies. It includes work across multiple domains: electronics circuits, microcontroller applications, web technologies, and various programming languages including C, Verilog, Assembly, and MATLAB.
 
-📡 Live Streaming Platform (Capstone Project):
+---
 
-A live streaming platform built using modern web technologies, inspired by Twitch. Key features include homepage, streamer dashboard, live chat, and real-time video streaming using WebRTC.
+## 📡 **Live Streaming Platform (Capstone Project)**
 
-🔧 Technologies Used:
+A live streaming platform built using modern web technologies, inspired by Twitch. Key features include a homepage, streamer dashboard, live chat, and real-time video streaming using WebRTC.
 
-Frontend: HTML, CSS, JavaScript
+### 🔧 Technologies Used:
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Express, MySQL
+- **Streaming**: WebRTC (ICE, STUN, TURN), initially explored RTMP
+- **Authentication**: Session-based login, bcrypt for password hashing
+- **Deployment**: Azure virtual machine (VM)
 
-Backend: Node.js, Express, MySQL
+---
 
-Streaming: WebRTC (ICE, STUN, TURN), initially explored RTMP
-
-Authentication: Session-based login, bcrypt for password hashing
-
-Deployment: Azure virtual machine (VM)
-
-🔊 Signal Capture Projects (MATLAB):
+## 🔊 ## **Signal Capture Projects (MATLAB)**
 
 These weekly class projects are focused on signal acquisition and processing using MATLAB.
 
-💻 Verilog Labs:
+---
+
+## 💻 ## **Verilog Labs**
 
 This folder contains all lab exercises from the digital systems course, written in Verilog.
 
-👨‍💻 Weekly C Programming Exercises:
+---
+
+## 👨‍💻 ## **Weekly C Programming Exercises**
 
 This folder contains weekly exercises from the programming course, all written in C language.
 
-🧠 Assembly & Verilog Mixed Labs:
+---
 
-Each lab is documented in Word files and includes implementations in both Assembly Language and Verilog.
+## 🧠 ## **Assembly & Verilog Mixed Labs**
 
-🧮 8051 Microcontroller Final Project:
+Each lab is documented in Word files and includes implementations in both **Assembly Language** and **Verilog**.
+
+---
+
+## 🧮 ## **8051 Microcontroller Final Project**
 
 This is the final project from the Microcomputer Lab: a fully functional calculator implemented using the 8051 microcontroller.
 
+---
 
-🔩 Electronics Lab Projects:
+## 🔩 ## **Electronics Lab Projects**
 
 This section contains weekly lab projects focused on analog and digital electronics. Projects were implemented using common ICs and tested on breadboards.
 
-Topics Include:
+### Topics Include:
+1. **OPA (Operational Amplifier) Circuit**: Basic operational amplifier circuit design and testing.
+2. **OPA Comparator**: Using an operational amplifier as a comparator to compare two voltages.
+3. **OPA Adder**: Designing an operational amplifier circuit to perform addition.
+4. **Differential Amplifier**: A differential amplifier circuit using operational amplifiers to amplify the difference between two input signals.
+5. **Stable Multivibrator**: Design and implementation of a stable multivibrator circuit.
+6. **Integrator & Differentiator Circuits**: Implementing the integration and differentiation operations using operational amplifiers.
+7. **Active Filters (Low-pass, High-pass)**: Design of active low-pass, high-pass, or band-pass filters using operational amplifiers.
+8. **Power Amplifier**: Designing a power amplifier to drive a load (e.g., speakers or motors).
 
-1. OPA (Operational Amplifier) Circuit
+---
 
-2. OPA Comparator
+## 🔧 ## **Practical Electronic Circuit (Audio Amplifier Projects)**
 
-3. OPA Adder
+This section contains lab projects focused on audio amplifiers, developed during the **Practical Electronic Circuit** course. The projects include the following:
 
-4. Differential Amplifier
+### Topics Include:
+1. **Audio Quality Control Circuit**: Design and implementation of a circuit for controlling audio quality.
+2. **Class A Amplifier**: Designing and testing a Class A audio amplifier.
 
-5. Stable Multivibrator
+---
 
-6. NE555 Timer
+## Getting Started
 
-7. Integrator & Differentiator Circuits
+To replicate or study the projects, you'll need basic electronics components and a suitable breadboard setup. For each lab, the following materials may be required:
 
-8. Active Filters (Low-pass, High-pass)
+- **Operational Amplifiers** (e.g., LM741, TL081)
+- **Capacitors and Resistors** (various values)
+- **Potentiometers**
+- **Power Supply** (e.g., DC voltage source)
+- **Oscilloscope or Multimeter** for testing circuits
+- **Breadboard** and jumper wires
 
-9. Power Amplifier
+---
+
+### Steps to Set Up the Projects:
+
+  **Clone the repository**:
+   ```bash
+   git clone https://github.com/rayray012793/University-Project.git
