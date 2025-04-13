@@ -4,6 +4,16 @@ This repository compiles all major lab projects and coursework completed during 
 
 ---
 
+## ⚡ **Practical Electronic Circuit (Audio Amplifier Projects)**
+
+This section contains lab projects focused on audio amplifiers, developed during the **Practical Electronic Circuit** course. All projects are documented in PDF format.
+
+### Topics Include:
+1. **Audio Quality Control Circuit**: Design and implementation of a circuit for controlling audio quality.
+2. **Class A Amplifier**: Designing and testing a Class A audio amplifier.
+
+---
+
 ## 📡 **Live Streaming Platform (Capstone Project)**
 
 A live streaming platform built using modern web technologies, inspired by Twitch. Key features include a homepage, streamer dashboard, live chat, and real-time video streaming using WebRTC.
@@ -17,37 +27,7 @@ A live streaming platform built using modern web technologies, inspired by Twitc
 
 ---
 
-## 🔊 **Signal Capture Projects (MATLAB)**
-
-These weekly class projects are focused on signal acquisition and processing using MATLAB. The documentation for each project is available as a PDF.
-
----
-
-## 💻 **Verilog Labs**
-
-This folder contains all lab exercises from the digital systems course, written in Verilog. Each lab is documented in a PDF format.
-
----
-
-## 👨‍💻 **Weekly C Programming Exercises**
-
-This folder contains weekly exercises from the programming course, all written in C language and documented in PDFs.
-
----
-
-## 🧠 **Assembly & Verilog Mixed Labs**
-
-Each lab is documented in PDF format, and the projects are implemented in both **Assembly Language** and **Verilog**.
-
----
-
-## 🧮 **8051 Microcontroller Final Project**
-
-This is the final project from the Microcomputer Lab: a fully functional calculator implemented using the 8051 microcontroller, documented in a PDF.
-
----
-
-## 🔩 **Electronics Lab Projects**
+## 🔌 **Electronics Lab Projects**
 
 This section contains weekly lab projects focused on analog and digital electronics. The projects were implemented using common ICs and tested on breadboards. All projects are documented in PDF format.
 
@@ -63,19 +43,33 @@ This section contains weekly lab projects focused on analog and digital electron
 
 ---
 
-## 🔧 **Practical Electronic Circuit (Audio Amplifier Projects)**
+## 📈 **Digital Signal Capture Projects (MATLAB)**
 
-This section contains lab projects focused on audio amplifiers, developed during the **Practical Electronic Circuit** course. The projects include the following:
+These weekly class projects are focused on signal acquisition and processing using MATLAB. The projects include both **PDF files** (for documentation and explanations) and **MATLAB code files**.
 
-### Topics Include:
-1. **Audio Quality Control Circuit**: Design and implementation of a circuit for controlling audio quality.
-2. **Class A Amplifier**: Designing and testing a Class A audio amplifier.
+---
+
+## 🧮 **8051 Microcontroller Final Project**
+
+This is the final project from the Microcomputer Lab: a fully functional calculator implemented using the 8051 microcontroller, documented in a PDF.
+
+---
+
+## 👨‍💻 **Microcomputer Class Exercises**
+
+This folder contains all the exercises from the microcomputer class, documented in Word files. The projects are implemented in both **Assembly Language** and **Verilog**.
+
+---
+
+## 💻 **C Programming Exercises**
+
+This folder contains weekly exercises from the programming course, all written in C language and documented as C code files.
 
 ---
 
 ## 🚀 **Getting Started**
 
-To view or study the projects, you can open the PDF files provided in the respective folders. Each PDF contains detailed documentation, including circuit diagrams, explanations, and results.
+To view or study the projects, you can open the files provided in the respective folders. Each folder contains the appropriate documentation format for the projects.
 
 ---
 
@@ -83,4 +77,4 @@ To view or study the projects, you can open the PDF files provided in the respec
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/electronics-lab-projects.git
+   git clone https://github.com/rayray012793/University-Project.git
