@@ -17,39 +17,39 @@ A live streaming platform built using modern web technologies, inspired by Twitc
 
 ---
 
-## 🔊 ## **Signal Capture Projects (MATLAB)**
+## 🔊 **Signal Capture Projects (MATLAB)**
 
-These weekly class projects are focused on signal acquisition and processing using MATLAB.
-
----
-
-## 💻 ## **Verilog Labs**
-
-This folder contains all lab exercises from the digital systems course, written in Verilog.
+These weekly class projects are focused on signal acquisition and processing using MATLAB. The documentation for each project is available as a PDF.
 
 ---
 
-## 👨‍💻 ## **Weekly C Programming Exercises**
+## 💻 **Verilog Labs**
 
-This folder contains weekly exercises from the programming course, all written in C language.
-
----
-
-## 🧠 ## **Assembly & Verilog Mixed Labs**
-
-Each lab is documented in Word files and includes implementations in both **Assembly Language** and **Verilog**.
+This folder contains all lab exercises from the digital systems course, written in Verilog. Each lab is documented in a PDF format.
 
 ---
 
-## 🧮 ## **8051 Microcontroller Final Project**
+## 👨‍💻 **Weekly C Programming Exercises**
 
-This is the final project from the Microcomputer Lab: a fully functional calculator implemented using the 8051 microcontroller.
+This folder contains weekly exercises from the programming course, all written in C language and documented in PDFs.
 
 ---
 
-## 🔩 ## **Electronics Lab Projects**
+## 🧠 **Assembly & Verilog Mixed Labs**
 
-This section contains weekly lab projects focused on analog and digital electronics. Projects were implemented using common ICs and tested on breadboards.
+Each lab is documented in PDF format, and the projects are implemented in both **Assembly Language** and **Verilog**.
+
+---
+
+## 🧮 **8051 Microcontroller Final Project**
+
+This is the final project from the Microcomputer Lab: a fully functional calculator implemented using the 8051 microcontroller, documented in a PDF.
+
+---
+
+## 🔩 **Electronics Lab Projects**
+
+This section contains weekly lab projects focused on analog and digital electronics. The projects were implemented using common ICs and tested on breadboards. All projects are documented in PDF format.
 
 ### Topics Include:
 1. **OPA (Operational Amplifier) Circuit**: Basic operational amplifier circuit design and testing.
@@ -63,7 +63,7 @@ This section contains weekly lab projects focused on analog and digital electron
 
 ---
 
-## 🔧 ## **Practical Electronic Circuit (Audio Amplifier Projects)**
+## 🔧 **Practical Electronic Circuit (Audio Amplifier Projects)**
 
 This section contains lab projects focused on audio amplifiers, developed during the **Practical Electronic Circuit** course. The projects include the following:
 
@@ -73,21 +73,14 @@ This section contains lab projects focused on audio amplifiers, developed during
 
 ---
 
-## Getting Started
+## 🚀 **Getting Started**
 
-To replicate or study the projects, you'll need basic electronics components and a suitable breadboard setup. For each lab, the following materials may be required:
-
-- **Operational Amplifiers** (e.g., LM741, TL081)
-- **Capacitors and Resistors** (various values)
-- **Potentiometers**
-- **Power Supply** (e.g., DC voltage source)
-- **Oscilloscope or Multimeter** for testing circuits
-- **Breadboard** and jumper wires
+To view or study the projects, you can open the PDF files provided in the respective folders. Each PDF contains detailed documentation, including circuit diagrams, explanations, and results.
 
 ---
 
-### Steps to Set Up the Projects:
+## ⚙️ **Steps to Access the Projects:**
 
-  **Clone the repository**:
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/rayray012793/University-Project.git
+   git clone https://github.com/yourusername/electronics-lab-projects.git
