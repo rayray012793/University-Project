@@ -43,6 +43,17 @@ This section contains weekly lab projects focused on analog and digital electron
 
 ---
 
+## 📶 **Microwave Engineering Lab Projects**
+
+This section contains hands-on projects from the **Microwave Engineering Lab**, focused on RF and microwave circuit design. All projects are documented in PDF format.
+
+### Topics Include:
+1. **Wilkinson Power Divider**: Design and simulation of a Wilkinson power divider for equal power splitting with isolation between output ports.
+2. **Impedance Matching**: Implementation of impedance matching networks to minimize reflection and maximize power transfer.
+3. **Patch Antenna Array**: Design and analysis of a patch antenna array for wireless communication applications.
+
+---
+
 ## 📈 **Digital Signal Capture Projects (MATLAB)**
 
 These weekly class projects are focused on signal acquisition and processing using MATLAB. The projects include both **PDF files** (for documentation and explanations) and **MATLAB code files**.
