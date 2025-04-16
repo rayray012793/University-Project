@@ -54,6 +54,19 @@ This section contains hands-on projects from the **Microwave Engineering Lab**, 
 
 ---
 
+## 💼 **Forage**
+
+This section contains various job simulations and professional courses completed through **Forage**, covering areas such as management consulting, business analysis, and more. Below is a summary of the completed Forage courses and their projects.
+
+### 1. **PwC US Management Consulting Job Simulation**
+   - **Description**: Completed a job simulation focused on business transaction diligence for a PwC management consulting team
+   - **Key Tasks**:
+     - **Synergy Potential Presentation**: Created a three-slide presentation for synergy potential in a transaction.
+     - **Model Building**: Built a model with editable fields and assumptions
+     - **Email Summary**: Wrote a clear, concise email summary to communicate my findings.
+
+---
+
 ## 📈 **Digital Signal Capture Projects (MATLAB)**
 
 These weekly class projects are focused on signal acquisition and processing using MATLAB. The projects include both **PDF files** (for documentation and explanations) and **MATLAB code files**.
