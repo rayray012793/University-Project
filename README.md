@@ -56,14 +56,24 @@ This section contains hands-on projects from the **Microwave Engineering Lab**, 
 
 ## 💼 **Forage**
 
-This section contains various job simulations and professional courses completed through **Forage**, covering areas such as management consulting, business analysis, and more. Below is a summary of the completed Forage courses and their projects.
+This section contains various job simulations and professional courses completed through **Forage**, covering areas such as management consulting, aerospace systems engineering, and more. Below is a summary of the completed Forage courses and their projects.
+
+---
 
 ### 1. **PwC US Management Consulting Job Simulation**
-   - **Description**: Completed a job simulation focused on business transaction diligence for a PwC management consulting team
+   - **Description**: Completed a job simulation focused on business transaction diligence for a PwC management consulting team. The project involved analyzing potential synergies between two companies involved in a business transaction.
    - **Key Tasks**:
-     - **Synergy Potential Presentation**: Created a three-slide presentation for synergy potential in a transaction.
-     - **Model Building**: Built a model with editable fields and assumptions
-     - **Email Summary**: Wrote a clear, concise email summary to communicate my findings.
+     - **Synergy Potential Presentation**: Created a three-slide presentation outlining the synergy opportunities in the transaction.
+     - **Model Building**: Built a financial model with editable fields and assumptions to assess potential outcomes of the transaction.
+     - **Email Summary**: Wrote a clear and concise email to summarize the findings and communicate the analysis to stakeholders.
+
+---
+
+### 2. **GE Aerospace Explore Electrical Engineering Job Simulation**
+   - **Description**: Completed a job simulation involving electrical system design and troubleshooting navigation issues under adverse conditions. The experience enhanced technical proficiency and problem-solving skills in aerospace systems engineering.
+   - **Key Tasks**:
+     - **System Design & Troubleshooting**: Diagnosed and strategized solutions for avionics reliability in challenging environmental conditions, using simulation software for environmental impact assessment.
+     - **Technical Reporting**: Produced comprehensive design proposals and assessment plans in accordance with aerospace engineering protocols and safety requirements.
 
 ---
 
