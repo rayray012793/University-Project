@@ -11,6 +11,7 @@ This section contains lab projects focused on audio amplifiers, developed during
 ### Topics Include:
 1. **Audio Quality Control Circuit**: Design and implementation of a circuit for controlling audio quality.
 2. **Class A Amplifier**: Designing and testing a Class A audio amplifier.
+3. **Push-Pull Amplifier**: Design and testing of a Push-Pull amplifier, which utilizes complementary transistors to amplify both halves of the input signal. This design improves efficiency and reduces distortion compared to Class A amplifiers.
 
 ---
 
